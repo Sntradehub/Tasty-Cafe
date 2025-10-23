@@ -217,5 +217,7 @@ ul li a:hover::after {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .icons{display: flex;justify-content: center;align-items: center;gap: 0.6em;margin-top: 10px;}
