@@ -248,3 +248,111 @@ ul li a:hover::after {
   flex-direction: column;
 }
 .icons{display: flex;justify-content: center;align-items: center;gap: 0.6em;margin-top: 10px;}
+
+@media only screen and (min-width: 768px) {
+  /* for projects */
+
+  #projects .project-item {
+    flex-direction: row;
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  #projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  #projects .all-projects .project-info {
+    height: 100%;
+  }
+
+  #projects .all-projects .project-img {
+    height: 100%;
+  }
+
+  #about .about {
+    flex-direction: row;
+  }
+
+  #about .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+
+  #about .col-right {
+    text-align: left;
+    padding: 30px;
+  }
+
+  #contact .contact {
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+  }
+
+  #contact .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  #contact .contact-item {
+    width: 30%;
+    margin: 0;
+    /* flex-direction: row; */
+  }
+
+  #contact .contact-item .icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  #contact .contact-item .icon img {
+    object-fit: contain;
+  }
+
+  #contact .contact-item .contact-info {
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  #footer .footer p {
+    text-align: center;
+  }
+}
+
+/* media queries */
+/* For Desktop */
+
+@media only screen and (min-width: 1200px) {
+  #header .nav-list ul {
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+  }
+
+  #header .nav-list ul li {
+    display: inline-block;
+  }
+  #header .nav-list ul li a {
+    font-size: 1.8rem;
+  }
+
+  #header .hamburger {
+    display: none;
+  }
+
+  #services .service-bottom .service-item {
+    flex-basis: 22%;
+    margin: 1.5%;
+  }
+}
