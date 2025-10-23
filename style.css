@@ -212,10 +212,10 @@ ul li a:hover::after {
   align-items: center;
 }
 #footer-section{
-  background-color: rgb(249, 245, 245);
+  background-color: rgb(239, 237, 237);
   color: rgb(21, 21, 21);
   padding: 20px;
   text-align: center;
   margin-top: 20px;
 }
-.icons{display: flex;justify-content: center;align-items: center;gap: 0.6em;;}
+.icons{display: flex;justify-content: center;align-items: center;gap: 0.6em;margin-top: 10px;}
