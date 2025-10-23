@@ -175,6 +175,7 @@ ul li a:hover::after {
   margin-bottom: 40px;
   width: 100%;
 }
+.menu{margin-top: 10%;display: flex;flex-direction: column;}
 .food-categories{
   display: flex;
   justify-content: center;
